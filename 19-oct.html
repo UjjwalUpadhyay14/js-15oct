@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <h1 id="head">Remove karo mujhe</h1>
+
+
+
+
+
+
+    <script>
+
+
+
+        var new_element = document.createElement("h1")
+
+        new_element.innerHTML = "Ujjwal"
+
+        document.body.appendChild(new_element)
+
+
+
+        var img = document.createElement("img")
+
+        img.setAttribute("src","https://img.freepik.com/free-photo/african-lion-portrait-warm-light_475641-46.jpg?ga=GA1.1.1061593853.1725865221&semt=ais_hybrid")
+
+
+        document.body.appendChild(img)
+
+
+
+
+        var anchor = document.createElement("a")
+
+        anchor.innerHTML="Facebook"
+
+
+        anchor.setAttribute("href","https://www.facebook.com/")
+
+
+        document.body.appendChild(anchor)
+
+
+        document.querySelector("#head").remove()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
